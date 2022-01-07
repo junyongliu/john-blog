@@ -1,4 +1,5 @@
 module.exports = {
+    base: '/john-blog/',
     // 站点配置
     lang: 'zh-CN',
     title: 'johnjy的博客',
@@ -21,25 +22,7 @@ module.exports = {
         },
         { text: "vue", link: "/pages/vue/"   }
       ],
-      sidebar:{
-        "/pages/node/":[
-          ["", "node目录"],
-          ["path", "作为前端也需要知道的路径知识"],
-          ["stream", "node核心模块-stream"]
-        ],
-        "/pages/css/":[
-          ["", "前端"],
-          {
-            title: "css",
-            name: "css",
-            collabsable: false,
-            children: [
-              ["css/", "目录"],
-              ['css/interview', "css常考面试题"]
-            ]
-          }
-        ]
-      }
+      sidebar:'auto'
     }
     
 }

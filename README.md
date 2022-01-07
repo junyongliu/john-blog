@@ -1,2 +1,3 @@
-# blob
-personal blob
+# blog
+
+personal blog
